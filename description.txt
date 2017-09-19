@@ -1,0 +1,30 @@
+Title/Version
+-------------
+ISS Camera Geolocate
+iss_camera_geolocate v0.1
+Developed & tested with Python 2.7 and 3.6
+Last changed 09/19/2017
+
+
+Author
+------
+Timothy Lang
+NASA MSFC
+timothy.j.lang@nasa.gov
+(256) 961-7861
+
+
+Overview
+--------
+This is a Python software library that facilitates the geolocation of photographs and video frames from the International Space Station (ISS). The library provides functions that take camera and pointing information, along with publicly available ISS position information, and then will geolocate every pixel of the photograph in latitude and longitude. This enables geospatial analysis of astronaut photography from Earth, including pictures of clouds, lightning, coastlines, city lights, etc. Many images available from https://earth.jsc.nasa.gov/ can be fully geolocated using this software.
+
+To access this module, in the main source directory:
+python setup.py install
+
+Then in your program:
+import iss_camera_geolocate as icg
+
+
+Notes
+-----
+Dependencies: numpy, datetime, astropy, sgp4

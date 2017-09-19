@@ -1,0 +1,6 @@
+*.pyc
+build
+opensource
+dist
+ISS_Camera_Geolocate.egg-info
+notebooks/.ipynb_checkpoints
