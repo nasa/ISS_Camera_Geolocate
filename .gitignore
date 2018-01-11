@@ -4,3 +4,5 @@ opensource
 dist
 ISS_Camera_Geolocate.egg-info
 notebooks/.ipynb_checkpoints
+notebooks/ISS_Camera_Geolocate_example_reduced.ipynb
+icg.tar.gz

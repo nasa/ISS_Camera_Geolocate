@@ -3,9 +3,9 @@ NASA OPEN SOURCE AGREEMENT VERSION 1.3
 THIS OPEN SOURCE AGREEMENT (“AGREEMENT”) DEFINES THE RIGHTS OF USE, REPRODUCTION, DISTRIBUTION, MODIFICATION AND REDISTRIBUTION OF CERTAIN COMPUTER SOFTWARE ORIGINALLY RELEASED BY THE UNITED STATES GOVERNMENT AS REPRESENTED BY THE GOVERNMENT AGENCY LISTED BELOW ("GOVERNMENT AGENCY").  THE UNITED STATES GOVERNMENT, AS REPRESENTED BY GOVERNMENT AGENCY, IS AN INTENDED THIRD-PARTY BENEFICIARY OF ALL SUBSEQUENT DISTRIBUTIONS OR REDISTRIBUTIONS OF THE SUBJECT SOFTWARE.  ANYONE WHO USES, REPRODUCES, DISTRIBUTES, MODIFIES OR REDISTRIBUTES THE SUBJECT SOFTWARE, AS DEFINED HEREIN, OR ANY PART THEREOF, IS, BY THAT ACTION, ACCEPTING IN FULL THE RESPONSIBILITIES AND OBLIGATIONS CONTAINED IN THIS AGREEMENT. 
 
 Government Agency: NASA Marshall Space Flight Center 
-Government Agency Original Software Designation: MFS-33274-1
-Government Agency Original Software Title: Python Interface to Dual-Pol Radar Algorithms (DualPol)
-User Registration Requested. Please visit https://github.com/tjlang/ 
+Government Agency Original Software Designation: MFS-33558-1
+Government Agency Original Software Title: ISS Camera Geolocate
+User Registration Requested. Please visit https://github.com/tjlang/ISS_Camera_Geolocate
 Government Agency Point of Contact for Original Software: timothy.j.lang@nasa.gov
 
 1.	DEFINITIONS
@@ -16,7 +16,7 @@ C.	 “Display” means the showing of a copy of the Subject Software, either di
 D.	“Distribution” means conveyance or transfer of the Subject Software, regardless of means, to another.
 E.	 “Larger Work” means computer software that combines Subject Software, or portions thereof, with software separate from the Subject Software that is not governed by the terms of this Agreement.
 F.	 “Modification” means any alteration of, including addition to or deletion from, the substance or structure of either the Original Software or Subject Software, and includes derivative works, as that term is defined in the Copyright Statute, 17 USC 101.  However, the act of including Subject Software as part of a Larger Work does not in and of itself constitute a Modification.
-G.	“Original Software” means the computer software first released under this Agreement by Government Agency with Government Agency designation MFS-33274-1 and entitled Python Interface to Dual-Pol Radar Algorithms (DualPol) including source code, object code and accompanying documentation, if any.
+G.	“Original Software” means the computer software first released under this Agreement by Government Agency with Government Agency designation MFS-33558-1 and entitled ISS Camera Geolocate including source code, object code and accompanying documentation, if any.
 H.	“Recipient” means anyone who acquires the Subject Software under this Agreement, including all Contributors.
 I.	“Redistribution” means Distribution of the Subject Software after a Modification has been made.
 J.	“Reproduction” means the making of a counterpart, image or copy of the Subject Software.
@@ -56,7 +56,7 @@ A.	Distribution or Redistribution of the Subject Software must be made under thi
 
 B.	Each Recipient must ensure that the following copyright notice appears prominently in the Subject Software:
 
-Copyright © {2014} United States Government as represented by 
+Copyright © {2017} United States Government as represented by 
 Marshall Space Flight Center.
 No copyright is claimed in the United States under Title 17, U.S.Code. 
 All Other Rights Reserved.
