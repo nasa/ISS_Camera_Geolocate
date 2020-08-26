@@ -5,7 +5,7 @@ THIS OPEN SOURCE AGREEMENT (“AGREEMENT”) DEFINES THE RIGHTS OF USE, REPRODUC
 Government Agency: NASA Marshall Space Flight Center 
 Government Agency Original Software Designation: MFS-33558-1
 Government Agency Original Software Title: ISS Camera Geolocate
-User Registration Requested. Please visit https://github.com/tjlang/ISS_Camera_Geolocate
+User Registration Requested. Please visit https://github.com/nasa/ISS_Camera_Geolocate
 Government Agency Point of Contact for Original Software: timothy.j.lang@nasa.gov
 
 1.	DEFINITIONS
