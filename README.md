@@ -25,4 +25,8 @@ To access everything:
 ```
 import iss_camera_geolocate as icg
 ```
-Demonstration notebooka are in the notebooks directory.
+
+Demonstration notebooks are in the notebooks directory.
+
+Latest release info:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2585824.svg)](https://doi.org/10.5281/zenodo.2585824)
