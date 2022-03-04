@@ -1,6 +1,6 @@
 ISS Camera Geolocate README
 ----------------------------
-This is a Python software library that facilitates the geolocation of photographs and video frames from the International Space Station (ISS). The library provides functions that take camera and pointing information, along with publicly available ISS position information, and then will geolocate every pixel of the photograph in latitude and longitude. This enables geospatial analysis of astronaut photography from Earth, including pictures of clouds, lightning, coastlines, city lights, etc. Many images available from https://earth.jsc.nasa.gov/ can be fully geolocated using this software.
+This is a Python software library that facilitates the geolocation of photographs and video frames from the International Space Station (ISS). The library provides functions that take camera and pointing information, along with publicly available ISS position information, and then will geolocate every pixel of the photograph in latitude and longitude. This enables geospatial analysis of astronaut photography from Earth, including pictures of clouds, lightning, coastlines, city lights, etc. Many images available from https://eol.jsc.nasa.gov/  can be fully geolocated using this software.
 
 The code now also enables geolocation of the ISS Lightning Imaging Sensor (LIS) background imagery datasets. These data are available from http://dx.doi.org/10.5067/LIS/ISSLIS/DATA206 and http://dx.doi.org/10.5067/LIS/ISSLIS/DATA207.
 
