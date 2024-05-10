@@ -359,6 +359,14 @@ def run_iss_lis_geolocation(lis_background, index, verbose=True):
     if verbose:
         bt = time.time()
     Eph = get_interpolated_matrices(lis_background, index)
+    bdts = pd.to_datetime(
+        lis_background.bg_data_summary_TAI93_time.data).to_pydatetime()
+    # Check if before or after relocation on 7 July 2022
+    if bdts[0] < dt.datetime(2022, 7, 7, 8):
+        rotation_angle = ROTATE_FACTOR + 0.0
+    else:
+        # Rotated 180 deg after relocate
+        rotation_angle = ROTATE_FACTOR + np.pi
     lookvecSC = np.zeros((1, 3), dtype='double')
     locations = []
 
@@ -379,7 +387,7 @@ def run_iss_lis_geolocation(lis_background, index, verbose=True):
 
     VlisOrientation = np.zeros(3, dtype='double')
     VlisOrientation[0] = 3.182 - 0.0485 + \
-        0.0485 * Eph.state_vector[5] / 6000.0 + ROTATE_FACTOR
+        0.0485 * Eph.state_vector[5] / 6000.0 + rotation_angle
     VlisOrientation[1] = -0.020 + 0.015 - \
         0.0042 * Eph.state_vector[5] / 6000.0 + LEFT_RIGHT_FACTOR
     VlisOrientation[2] = 0.020 - 0.051 + UP_DOWN_FACTOR
